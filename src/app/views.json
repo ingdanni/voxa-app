@@ -8,6 +8,9 @@
       "AskHowManyWins": {
         "say": "How many times do I have to beat you in rock paper scissors to be the ultimate winner?"
       },
+      "ConfirmNumberOfWins": {
+        "say": "{numberOfWins} is a big number, are you sure you want to play until one of us wins {numberOfWins} times?"
+      },
       "StartGame": {
         "say": "All right, let's start."
       },
@@ -31,14 +34,29 @@
         "say": "I won the game!."
       },
       "AskIfStartANewGame": {
-        "say": "Should we play again?",
-        "reprompt": "Should we play again?"
+        "say": "Should we play a new game?",
+        "reprompt": "Should we play a new game?"
       },
       "RestartGame": {
         "say": "All right!"
       },
+      "SayTheScore": {
+        "say": "You have {userWins} wins and I have {alexaWins} wins."
+      },
+      "SayEmptyScore": {
+        "say": "We have no score yet."
+      },
       "Bye": {
         "say": "That's all right, until next time!"
+      },
+      "ConfirmNewGame": {
+        "say": " The score right now is: Alexa {alexaWins}, you {userWins}. Are you sure you want to start a new game?"
+      },
+      "Help": {
+        "say": "This is the classic rock paper scissors. You can start a new game by saying start a game. You can check the score by saying score. You can leave the game by saying stop."
+      },
+      "DonotUnderstand": {
+        "say": "I'm sorry, I didn't understand what you said. You can start a new game by saying start a game. You can check the score by saying score. You can leave the game by saying stop."
       }
     }
   }
