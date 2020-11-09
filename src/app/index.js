@@ -1,9 +1,4 @@
-const {
-  AlexaPlatform,
-  plugins,
-  VoxaApp
-} = require("voxa");
-const config = require("../config");
+const { AlexaPlatform, plugins, VoxaApp } = require("voxa");
 const Model = require("./model");
 const states = require("./states");
 const variables = require("./variables");

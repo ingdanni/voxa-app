@@ -1,5 +1,3 @@
-const {
-  alexaSkill,
-} = require("./app");
+const { alexaSkill } = require("./app");
 
 exports.alexaHandler = alexaSkill.lambda();
